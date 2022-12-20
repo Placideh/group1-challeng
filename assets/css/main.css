@@ -1,0 +1,54 @@
+.container {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    /* display: block; */
+}
+
+button {
+    background-color: blue;
+    width: 20em;
+    height: 50px;
+    color: white;
+
+
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    width: 20em;
+    height: 20px;
+
+}
+
+.my-inputs {
+    text-align: center;
+    display: flex;
+    gap: 5px;
+    row-gap: 5px;
+}
+
+.radios {
+
+    display: flex;
+    max-width: 50px;
+    justify-content: space-around;
+    /* gap: 5px; */
+    justify-content: start;
+    align-items: center;
+}
+
+.myLocation {
+    width: 40em;
+    height: 25px;
+
+}
+
+.all-radios-btn {
+    gap: 15px;
+    display: flex;
+}
